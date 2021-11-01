@@ -36,7 +36,7 @@ public class Section implements Serializable {
 	public Section() {
 	}
 
-	public Section(Long id, String title, String description, Integer position, String imgUri, Resource resouce,
+	public Section(Long id, String title, String description, Integer position, String imgUri, Resource resource,
 			Section prerequisite) {
 		super();
 		this.id = id;
@@ -88,12 +88,12 @@ public class Section implements Serializable {
 		this.imgUri = imgUri;
 	}
 
-	public Resource getResouce() {
-		return resouce;
+	public Resource getResource() {
+		return resource;
 	}
 
-	public void setResouce(Resource resouce) {
-		this.resouce = resouce;
+	public void setResource(Resource resource) {
+		this.resource = resource;
 	}
 
 	public Section getPrerequisite() {
